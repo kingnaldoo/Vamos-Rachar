@@ -30,18 +30,19 @@
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:layout_marginTop="156dp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextNumber"
+        app:layout_constraintEnd_toStartOf="@+id/price"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_dollar_sign" />
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/price"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="148dp"
         android:ems="10"
         android:inputType="number"
+        android:text="Preço"
         android:textColor="#FFFFFF"
         android:textColorHighlight="#FFFFFF"
         android:textColorHint="#FFFFFF"
@@ -52,12 +53,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextNumber2"
+        android:id="@+id/persons"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="252dp"
         android:ems="10"
         android:inputType="number"
+        android:text="Pessoas"
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
         android:textColorLink="#FFFFFF"
@@ -84,7 +86,7 @@
         app:layout_constraintGuide_begin="20dp" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="368dp"
